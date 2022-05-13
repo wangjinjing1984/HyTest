@@ -1,9 +1,14 @@
 import os
-print(os.getcwd())
-print('This is second commit')
-<<<<<<< HEAD
-print('pull requests remote github reposity')
 
-=======
-print('vscode remote this message.')
->>>>>>> e984b408014c9f7f0e1a68de395684ec59bebe69
+
+def main():
+    print(os.getcwd())
+    print('This is second commit')
+    print('pull requests remote github reposity')
+p   print('vscode remote this message.')
+    print("the new push...")
+    print("this is ths last change to github...")
+
+if __name__ == "__main__":
+    main()
+
